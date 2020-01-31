@@ -1,0 +1,75 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/23/10/43/new-york-1927127_1280.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+nav{
+    background: black;
+}
+
+
+.center{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 320px;
+    color:ivory;
+    font-weight: 700;
+}
+.buttontext{
+       font-size: 32px;
+
+}
+.btn{
+    color: black;
+    background: ivory;
+ 
+    
+}
+
+.tagline{
+
+font-family: "bentham";
+}
+.cards{
+    float:;
+}
+
+.nav-item: hover{
+    color: aqua;
+    
+}
+.row1{
+    height:100px;
+    background:black;
+    color: ivory;
+    
+    
+    
+}
+.col-6{
+    padding-top: 20px;
+    font-size: 20px;
+        
+}
+img{
+    height: 100px;
+   
+}
+.col-3{
+    
+    padding-left: 0px;
+    font-weight: 700;
+}
+#we{
+
+padding-top: 15px;
+
+}
+.fab{
+margin-left: 10px;
+font-size: 40px;
+}

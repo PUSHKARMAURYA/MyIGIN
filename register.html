@@ -1,0 +1,187 @@
+<html>
+
+<head>
+    
+    <title>Registration</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+         <script src="https://kit.fontawesome.com/b7cf8899e7.js" crossorigin="anonymous"></script> 
+         <link href="https://fonts.googleapis.com/css?family=Bentham&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="music.css">  
+    
+      
+        <style>
+            body{
+                background-image: url(https://cdn.pixabay.com/photo/2018/07/03/07/09/block-chain-3513216_1280.jpg);
+            }
+    
+    
+    
+    
+    </style>  
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark " style="font-size: 25px;">
+        <div class="container">
+            <a class="navbar-brand " href="file:///C:/Users/pushk/Desktop/MyIGIN/home.html" style="font-size: 25px;"  data-toggle="tooltip" data-placement="bottom" title="Home Page"><i class="fab fa-accusoft"></i>MyIGIN</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"  data-toggle="tooltip" data-placement="bottom" title="About The Webisite">
+        <a class="nav-link" href="file:///C:/Users/pushk/Desktop/MyIGIN/about.html">About<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active" data-toggle="tooltip" data-placement="bottom" title="Contact Us Anytime from Anywhere">
+        <a class="nav-link" href="file:///C:/Users/pushk/Desktop/MyIGIN/contact.html">Contact</a>
+      </li>
+      <li class="nav-item active" data-toggle="tooltip" data-placement="bottom" title="Explore Our Courses"  >
+          <a class="nav-link" href="file:///C:/Users/pushk/Desktop/MyIGIN/courses.html">Courses</a>
+      </li>
+   
+    </ul>
+    
+    <ul class="navbar-nav " >
+    <div class="dropdown">
+  <button class="btn btn-lg btn-outline dropdown-toggle bg-warning" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;
+   font-size:20;border-color: green" >
+    Search Courses ...
+  </button>
+  <div class="dropdown-menu bg-primary" aria-labelledby="dropdownMenuButton" style="color: ivory">
+    <a class="dropdown-item bg-primary" href="file:///C:/Users/pushk/Desktop/MyIGIN/courses.html#rte" style="color: ivory;font-size:25;" >Courses By PUSHKAR MAURYA</a>
+    <a class="dropdown-item bg-primary" href="file:///C:/Users/pushk/Desktop/MyIGIN/courses.html#gte" style="color: ivory;font-size:25;">Courses By INSTRUCTOR 2</a>
+    <a class="dropdown-item bg-primary" href="file:///C:/Users/pushk/Desktop/MyIGIN/courses.html#fte" style="color: ivory;font-size:25; ">Courses By INSTRUCTOR3</a>
+  </div>
+</div>
+     
+      <li  class="nav-item active"  data-toggle="tooltip" data-placement="bottom" title="Login to  MyIGIN">
+        <a class="nav-link" href="file:///C:/Users/pushk/Desktop/MyIGIN/loginas.html" >  <i class=" fa fa-sign-in-alt"></i>    Login</a>
+      </li>
+      <li  class="nav-item active">
+        <a class="nav-link"  href="file:///C:/Users/pushk/Desktop/MyIGIN/register.html">  <i class=" fa fa-user-plus"  data-toggle="tooltip" data-placement="bottom" title="Sign up to MyIGIN"></i>   Sign Up</a>
+      </li>
+    </ul>
+ 
+  </div>
+  </div>
+</nav>
+       
+       
+    <div class="container jumbotron bg-success" style="color: ivory; ;font-size: 32px; background: ">
+        
+        <form class="needs-validation" novalidate>
+  <div class="form-row">
+   <i class="fas fa-users-cog" style="font-size: 40px;"></i>
+    <div class="col-md-4 mb-3">
+      <label for="validationTooltip01">First name</label>
+      <input type="text" class="form-control textr" id="validationTooltip01" placeholder="First name" value="PUSHKAR" required>
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationTooltip02">Last name</label>
+      <input type="text" class="form-control textr" id="validationTooltip02" placeholder="Last name" value="MAURYA" required>
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationTooltipUsername">Username</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+        </div>
+        <input type="text" class="form-control textr" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+        <div class="invalid-tooltip">
+          Please choose a unique and valid username.
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Example single danger button -->
+
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationTooltip03">City</label>
+      <input type="text" class="form-control textr" id="validationTooltip03" placeholder="City" required>
+      <div class="invalid-tooltip">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationTooltip04">Country</label>
+      <input type="text" class="form-control textr" id="validationTooltip04" placeholder="Country" required>
+      <div class="invalid-tooltip">
+        Please provide a valid state.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationTooltip05">Password</label>
+      <input type="text" class="form-control textr" id="validationTooltip05" placeholder="Password" required>
+      <div class="invalid-tooltip">
+        Please provide a valid zip.
+      </div>
+    </div>
+  </div>
+
+  
+      <button type="button" class="btn btn-primary bg-danger io" data-toggle="modal" data-target="#exampleModal"  style="color: ivory; font-size:28px" >
+  Submit form
+</button>
+  <br>
+  <br>
+  <h2>Sign Up with -</h2>
+  <div class="row" >
+    
+    <div class="col-4"> <a href="#"> <button class="btn  btn-lg" style="background: #DB4A39;font-size:30px;color: ivory;"><i class="fab fa-google-plus-g"></i>  Google</button></a> </div> 
+    <div class="col-4"><a href="">    <button class="btn  btn-lg" style="background: #3b5998 ;font-size: 30px;color: ivory;"><i class="fab fa-facebook-square"></i>   facebook</button></a></div>
+      
+      <div class="col-4"> <a href="https://twitter.com/login" > <button class="btn btn-lg" style="background:  #00acee;font-size: 30px;color: ivory;"><i class="fab fa-twitter-square"></i>   twitter</button></a></div>
+      
+      
+  </div>
+
+</form>
+       
+       <div class="">
+           
+           <h1 class="textr"></h1>
+           
+       </div>
+        
+        
+        
+    </div>
+    
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Form Submitted</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    
+    <script src="file45.js"></script>
+    
+       
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        
+    
+</body>
+
+
+
+
+
+
+</html>
